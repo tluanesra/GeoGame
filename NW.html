@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+	<TITLE> GMT-7036 Lab 1 </TITLE>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</HEAD>
+<BODY>
+	
+	<TABLE border="1" ID="Table 1" class="masterTable">
+	<TR><TH colspan="2" class= "titleArea">
+		Mon site web <span style="color:red;">carto </span> statique
+		<img src="r500_0.gif" class="logoImg" align="right" alt="The Logo" border="1">
+		<div class="logoTxt" align="right">Mon Logo</div>
+		J'introduis mon site tel que suggéré
+		<TR><TH class="toolsArea">
+			<u>Outils</u>
+			<BR><BR>
+			<button id="zoomIn" disabled>
+				Zoom +
+			</button>
+			&emsp;
+			<button id="zoomOut" onclick="location.href='index.html'">
+				Zoom -
+			</button>
+			&emsp;
+			<A target="_blank" HREF="AddInfo.html">Ajouter Info</A>
+
+		<TH class="legendArea" rowspan="2">
+			<TABLE border="1" ID="Table 2" class="tableLegend">
+				<caption> <u>Légende</u> </caption>
+				<TR><TD class="legItem"><img src="Autoroute.jpg" alt="Autoroute">
+					<TD class="legItem" align="left">Autoroute
+				<TR><TD class="legItem"><img src="Route.jpg" alt="Route">
+					<TD class="legItem" align="left">Route
+				<TR><TD class="legItem"><img src="Riviere.jpg" alt="Riviere">
+					<TD class="legItem" align="left">Rivière
+				<TR><TD class="legItem"><img src="Urbain.jpg" alt="Urbain">
+					<TD class="legItem" align="left">Développement urbain
+			</TABLE>
+			<BR><BR><BR><BR><BR>
+			Envoyer un <A HREF="mailto:keven.arsenault@gmail.com">courriel</A> à l'administrateur du site
+			<BR><BR>
+			<A HREF="index.html">Lien sur le site du cours</A>
+
+		<TR><TH class="mapArea" align=center>
+			<button id="moveUp" disabled>
+				 ˄
+			</button>
+			<BR>
+			<SPAN>
+				<button id="moveLeft" disabled>
+					<
+				</button>
+				<img src="r500_1.gif" class="bigMap" alt="CarteDynamique" usemap="#workmap" border="1" align="center">
+				<map name="workmap">
+				  <area target="_blank" shape="rect" coords="0,0,100,67" alt="NW" href="informations.html">
+				  <area target="_blank" shape="rect" coords="100,0,200,67" alt="N" href="informations.html">
+				  <area target="_blank" shape="rect" coords="200,0,300,67" alt="NE" href="informations.html">
+				  <area target="_blank" shape="rect" coords="0,67,100,133" alt="W" href="informations.html">
+				  <area target="_blank" shape="rect" coords="100,67,200,133" alt="C" href="informations.html">
+				  <area target="_blank" shape="rect" coords="200,67,300,133" alt="E" href="informations.html">
+				  <area target="_blank" shape="rect" coords="0,133,100,200" alt="SW" href="informations.html">
+				  <area target="_blank" shape="rect" coords="100,133,200,200" alt="SW" href="informations.html">
+				  <area target="_blank" shape="rect" coords="200,133,300,200" alt="SE" href="informations.html">
+				</map>
+				<button id="moveRight" onclick="location.href='N.html'">
+					>
+				</button>
+			</SPAN>
+			<BR>
+			<button id="moveDown" onclick="location.href='W.html'">
+				˅
+			</button>
+
+	</TABLE>
+</BODY>
+</HTML>

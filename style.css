@@ -1,0 +1,118 @@
+body {
+	font-family: 'Times New Roman',
+	Times, serif;
+	min-width:620px;
+}
+caption {
+	text-align:left;
+}
+
+label {
+	vertical-align:top;
+}
+
+p {
+	padding-left:10px;
+}
+
+th {
+	min-width:50px;
+	padding:10px 5px;
+}
+
+td {
+	min-width:50px;
+	padding:5px 5px;
+}
+
+button{
+	padding:0px 10px;
+}
+
+.masterTable {
+	width:100%;
+	border-collapse: collapse;
+}
+.titleArea {
+	color:black;
+	text-align:left;
+	margin-top:10px;
+}
+
+.LogoImg {
+	width: 125px;
+	height: 75px;
+	margin:5px 5px 5px 5px;
+}
+.logoTxt {
+	overflow:hidden;
+	position: relative;
+	transform: translate(+110px, +10px);
+	font-weight:bold;
+	font-size:22;
+}
+
+.toolsArea {
+	padding:10px 10px;
+	text-align:left;
+	vertical-align:top;
+
+}
+
+.mapArea {
+	padding: 1rem 1rem 1rem 1rem;
+	vertical-align:top;
+	min-width:400px;
+}
+
+.bigMap {
+	width:300px; 
+	margin:5px 5px 5px 5px;
+}
+
+.legendArea {
+	vertical-align:top;
+	text-align:left;
+	padding:10px 10px;
+	height:100%;
+}
+
+.tableLegend {
+	background-color:#9FBBB7;
+	max-width:80%; 
+	border-collapse: collapse;
+}
+
+.legItem:hover{
+	font-size:1.25em;
+	color:#00FFFF;
+	background-color:#9FFBB5;
+	padding:10px 10px;
+}
+
+.addInfoWin {
+	background-color:#9FBBB7;
+	border-style:solid;
+	max-width:250px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.pubPri {
+	margin-left:30px;
+}
+
+.subButton {
+	float: right;
+}
+
+.tableInfo {
+	margin-left:10px;
+	background-color:#FFFFFF;
+	border-collapse: collapse;
+	padding:10px 10px;
+}
+
+.tableTitle {
+	
+}
